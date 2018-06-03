@@ -1,0 +1,25 @@
+﻿@model TryWeb.Models.Aspects
+
+@{
+    ViewBag.Title = "Загрузка файла";
+}
+
+<h2>Upload</h2>
+<div>       
+    <div class="jumbotron">
+        <h1>Загрузка файла</h1>
+        <p class="lead">
+        @using (Html.BeginForm("Upload", "Aspects", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="file" name="file" />
+            <input type="submit" name="Submit" id="Submit" value="Загрузить файл" />
+            <h2>
+                @Html.ActionLink("Перейти к списку", "Index")
+            </h2>
+        }
+        </p>
+
+        
+    </div>
+
+</div>
