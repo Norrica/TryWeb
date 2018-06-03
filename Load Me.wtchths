@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfAspects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aspects>
+    <Name>Transmetropolitan</Name>
+    <Score>5</Score>
+    <Category>Serial</Category>
+    <IsWatched>true</IsWatched>
+  </Aspects>
+  <Aspects>
+    <Name>Ready Player One</Name>
+    <Score>5</Score>
+    <Category>Animation</Category>
+    <IsWatched>true</IsWatched>
+  </Aspects>
+  <Aspects>
+    <Name>Detroit:Become Human</Name>
+    <Score>5</Score>
+    <Category>Comix</Category>
+    <IsWatched>false</IsWatched>
+  </Aspects>
+</ArrayOfAspects>
